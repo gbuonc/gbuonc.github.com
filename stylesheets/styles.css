@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -37,7 +37,10 @@ a {
   font-weight:400;
   text-decoration:none;
 }
-
+a:hover{
+    color: #000;
+    text-decoration: underline;
+}
 a small {
   font-size:11px;
   color:#777;
@@ -96,9 +99,7 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+
 }
 
 header ul {
@@ -160,8 +161,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+
   padding-bottom:50px;
 }
 
